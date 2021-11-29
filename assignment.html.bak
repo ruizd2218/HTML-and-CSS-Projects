@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Budgies!</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+			<h3>Budgies love seeds!</h3>
+			<h6>...and lots of attention from other budgies!</h1>
+		</header>
+		<blockquote cite="https://alenaxp.com/normal-budgie-behaviour-what-is-normal-when-to-worry/">
+		Last but not least, the most common behavior they show is being unapologetically cute and precious.
+		</blockquote>
+		<iframe width="420" height="315" src="https://www.youtube.com/embed/wyfCMrqitWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<p id="budgies">Budgies are small parrots</p>		
+		<footer>
+		<p>Budgies can come in a variety of colors, based on their genetic makeup.</p>
+		<p>The basic colors are yellow or blue, however, some can be purple, grey, or mixes of all kinds of colors.</p> 
+		</footer>
+	<nav>
+		<a href=dog.html>dog photo</a> |
+		<a href=dog_video.html>dog video</a> |
+		<a href=assignment.html>home</a> |
+	</nav>
+	</body>
+</html>
