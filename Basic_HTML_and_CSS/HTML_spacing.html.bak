@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+	<body>
+	<i><p>Hello, this is an HTML spacing challenge, the assignment requires
+	that I have a <span style="color:blue">word break</span>, <span style="color:green">a section</span>, a 
+	<span style="color:red">span tag</span> and a <span style="color:orange">character entity</span><br>
+	
+	</br>If you aren't sure what a character entity is, it's a short code that allows me to put symbols like
+	this - &copy<br>
+	
+	</br>It is currently 2:16&nbspPM</p>
+	
+	<section>
+		<h1>Sections</h1>
+			<p>This is a section, isolated from the rest of the code.</p>
+	</section>
