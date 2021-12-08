@@ -5,15 +5,91 @@ body {
 h1 {
     color: rgb(102, 138, 145, 1);
     margin-left: 10%;
-    text-shadow: 1px .5px 4px rgba(0,0,0, 0.6)
+    text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
 }
 
 .container {
     width: 450px;
-    height 450px;
-    background-color: #faebd7
+    height: 450px;
+    background-color: #faebd7;
     border: 2px solid black;
     border-radius: 5%;
+}
 
+/*select all squares in array*/
+.container .squares:nth-child(-n+4) {
+    background-image: url("icons/happyfaceClosed.png");
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 25%;
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+}
 
+.squares:nth-child(-n+4) p{
+    font-family: "Helvetica Neue", Helvetica, Ariel, sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align:center;
+    margin: 0;
+    text-shadow: 2px 1px 4px rgba(0,0,0, 0.8);
+}
+
+/*setting colors of squares*/
+.squares:nth-child(1) {
+    background: red;
+}
+
+.squares:nth-child(2) {
+    background: green;
+}
+
+.squares:nth-child(3) {
+    background: blue;
+}
+
+.squares:nth-child(4) {
+    background: yellow;
+}
+
+/* hover effects */
+/*setting up animation via "animation" tags*/
+.container .squares:nth-child(-n+4):hover {
+    background-image:url("icons/happyfaceOpen.png");
+    transform:scale(1.2);
+    animation-name: race; /*naming my animation*/
+    animation-duration: 2.5s; /*setting how long my animation will last*/
+    animation-iteration-count: infinite;/*how many times my animation will occur*/
+    animation-timing-function:cubic-bezier(2.5,.2,.3,2)
+}
+
+.squares:nth-child(1):hover {
+    background: #13b4ff;
+}
+
+.squares:nth-child(2):hover {
+    background: #d861af;
+}
+
+.squares:nth-child(3):hover {
+    background: #81205f;
+}
+
+.squares:nth-child(4):hover {
+    background: #77b800;
+}
+
+/*animation effects*/
+@keyframes race { /*race is our already-defined animation*/
+    0%, 100% { /*starts at 0 and ends at 100%*/
+        transform: translateY(0px); /*translate moves objects around the screen*/
+        background-image: url("icons/happyfaceOpen.png");
+    }
+    50% {
+        transform: translateY(330px); /*translate Y axis 330px down because positive numbers go down*/
+    }
 }
