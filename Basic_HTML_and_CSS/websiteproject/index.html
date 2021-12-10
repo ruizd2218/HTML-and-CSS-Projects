@@ -1,182 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
 		<title>Anor Londo | Resort</title>
+		<link rel="stylesheet" href="./css/shared.css">
+		<link rel="stylesheet" href="./css/animations.css">
 	</head>
 	<body>
-		<!---Navigation at top of screen--->
-		<div>
-			<ul>
-				<a href ="#home" id="link"><li>HOME</li></a>
-				<a href ="#gallery"><li>GALLERY</li></a>
-				<a href ="#reservation"><li>RESERVATION</li></a>
-			</ul>
-		</div>
-	</div>
-	<!---end of nav---->
-	
-	<!--Home-->
-	<div id="home">
-		<div>
-			<div>
-				<span>Anor Londo</span>
+		
+		<!--nav-->
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#contact"></a><li>RESERVATION</li></a>
 			</div>
 		</div>
-	</div>
-	<!---End home--->
-	
-	<!---GALLERY--->
-	<section>
-		<div id="gallery">
-			<h1>Gallery</h1>
-			<div>
-			
-				<!---Photo Container 1--->
-				<div>
-					<div>
-						<img src=".\images\anor1.png" alt="Image could not be found" width="640" height="360">
-						<div>
-							<h1>Click to Enlarge</h1>
-							<p>We have several giant crows ready to take you against your will, book your flight today!</p>
-						</div>
-					</div>
-				<!--END OF PHOTO CONTAINER-->
-				
-				<!---Photo Container 2--->
-				<div>
-					<div>
-						<img src=".\images\anor2.png" alt="Image could not be found" width="640" height="360">
-						<div>
-							<h1>Click to Enlarge</h1>
-							<p>We have several giant crows ready to take you against your will, book your flight today!</p>
-						</div>
-					</div>
+		<!--end nav-->
+		<!--home-->
+		<div id="home">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Anor Londo</span>
 				</div>
-				<!--END OF PHOTO CONTAINER-->
-				
-				<!---Photo Container 3--->
-				<div>
-					<div>
-						<img src=".\images\anor3.png" alt="Image could not be found" width="640" height="360">
-						<div>
-							<h1>Click to Enlarge</h1>
-							<p>We have several giant crows ready to take you against your will, book your flight today!</p>
-						</div>
-					</div>
-				</div>
-				<!--END OF PHOTO CONTAINER-->
-				
-				<!---Photo Container 4--->
-				<div>
-					<div>
-						<img src=".\images\anor4.png" alt="Image could not be found" width="640" height="360">
-						<div>
-							<h1>Click to Enlarge</h1>
-							<p>We have several giant crows ready to take you against your will, book your flight today!</p>
-						</div>
-					</div>
-				</div>
-				<!--END OF PHOTO CONTAINER-->
-				
-				<!---Photo Container 5--->
-				<div>
-					<div>
-						<img src=".\images\anor5.png" alt="Image could not be found" width="640" height="360">
-						<div>
-							<h1>Click to Enlarge</h1>
-							<p>We have several giant crows ready to take you against your will, book your flight today!</p>
-						</div>
-					</div>
-				</div>
-				<!--END OF PHOTO CONTAINER-->
-				
-				<!---Photo Container 6--->
-				<div>
-					<div>
-						<img src=".\images\anor6.png" alt="Image could not be found" width="640" height="360">
-						<div>
-							<h1>Click to Enlarge</h1>
-							<p>We have several giant crows ready to take you against your will, book your flight today!</p>
-						</div>
-					</div>
-				</div>
-				<!--END OF PHOTO CONTAINER-->
-				
-				<!---Photo Container 7--->
-				<div>
-					<div>
-						<img src=".\images\anor7.png" alt="Image could not be found" width="640" height="360">
-						<div>
-							<h1>Click to Enlarge</h1>
-							<p>We have several giant crows ready to take you against your will, book your flight today!</p>
-						</div>
-					</div>
-				</div>
-				<!--END OF PHOTO CONTAINER-->
-				
-				<!---Photo Container 8--->
-				<div>
-					<div>
-						<img src=".\images\anor8.png" alt="Image could not be found" width="640" height="360">
-						<div>
-							<h1>Click to Enlarge</h1>
-							<p>We have several giant crows ready to take you against your will, book your flight today!</p>
-						</div>
-					</div>
-				</div>
-				<!--END OF PHOTO CONTAINER-->
-				
-				<!---Photo Container 9--->
-				<div>
-					<div>
-						<img src=".\images\anor9.png" alt="Image could not be found" width="640" height="360">
-						<div>
-							<h1>Click to Enlarge</h1>
-							<p>We have several giant crows ready to take you against your will, book your flight today!</p>
-						</div>
-					</div>
-				</div>
-				<!--END OF PHOTO CONTAINER-->
 			</div>
 		</div>
-	</section>
-	<!---End of gallery section--->
-	
-	<!--RSVP booking-->
-	<section>
-		<div id="reservation">
-			<div>
-				<h1>Reservations</h1>
-				<div>
-					<h2><span>Your adventure is just a click away!</span>
-						<br>Reserve your spot today!
-					</h2>
-					<p>
-					<div>
-						<form section="" method="post">
-							<input class="rsvp" type="text" value="First Name">
-							<input class="rsvp" type="text" value="Last Name">
-							<input class="rsvp" type="text" value="Email Address">
-							<input class="rsvp" type="text" value="Phone Number">
-							<div class="fore-spacer">
-								<label class="terms">Terms and Conditions</label>
+		<!--end home-->
+		<!--gallery-->
+		<section id="gallery">
+			<div class="container">
+				<h1>Gallery</h1>
+				<div class="flex-container">
+					<!--photo container1-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/anor1.png" alt="Image could not be found.">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to enlarge</h3>
+								<p>We have several flights departing daily, book today!</p>
 							</div>
 						</div>
 					</div>
+					<!--end of photo container-->
+					
+					<!--photo container2-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/anor2.png" alt="Image could not be found.">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to enlarge</h3>
+								<p>We have several flights departing daily, book today!</p>
+							</div>
+						</div>
+					</div>
+					<!--end of photo container-->
+
+					<!--photo container3-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/anor3.png" alt="Image could not be found.">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to enlarge</h3>
+								<p>We have several flights departing daily, book today!</p>
+							</div>
+						</div>
+					</div>
+					<!--end of photo container-->
+
+					<!--photo container4-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/anor4.png" alt="Image could not be found.">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to enlarge</h3>
+								<p>We have several flights departing daily, book today!</p>
+							</div>
+						</div>
+					</div>
+					<!--end of photo container-->
+
+					<!--photo container5-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/anor5.png" alt="Image could not be found.">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to enlarge</h3>
+								<p>We have several flights departing daily, book today!</p>
+							</div>
+						</div>
+					</div>
+					<!--end of photo container-->
+
+					<!--photo container6-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/anor6.png" alt="Image could not be found.">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to enlarge</h3>
+								<p>We have several flights departing daily, book today!</p>
+							</div>
+						</div>
+					</div>
+					<!--end of photo container-->
+
+					<!--photo container7-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/anor7.png" alt="Image could not be found.">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to enlarge</h3>
+								<p>We have several flights departing daily, book today!</p>
+							</div>
+						</div>
+					</div>
+					<!--end of photo container-->
+
+					<!--photo container8-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/anor8.png" alt="Image could not be found.">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to enlarge</h3>
+								<p>We have several flights departing daily, book today!</p>
+							</div>
+						</div>
+					</div>
+					<!--end of photo container-->
+
+					<!--photo container9-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/anor9.png" alt="Image could not be found.">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to enlarge</h3>
+								<p>We have several flights departing daily, book today!</p>
+							</div>
+						</div>
+					</div>
+					<!--end of photo container-->
 				</div>
 			</div>
-		</div>
-	</section>
-	<!--end rsvp-->
+		</section>
+		<!--end gallery-->
+		<!--rsvp-->
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div class="reservation">
+						<h2><span>Your adventure is just past the Kingdom of Lordran!</span>
+						<br>Reserve your flight today!</h2>
+						<p class="rsvp-text">
+							Please provide us with your basic contact information.
+						</p>
+						<div class="form rsvp">
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<input class="rsvp" type="text" value="" placeholder="Last Name">
+								<input class="rsvp" type="text" value="" placeholder="Email Address">
+								<input class="rsvp" type="text" value="" placeholder="Phone Number">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div class="submit">
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--end rsvp-->
 
-	<!--FOOTER-->
-	<div>
-		www.anorlondo.lordran &nbsp;|&nbsp; &copy; 2021
-	</div>
-	<!--END OF FOOTER-->
+		<!--footer-->
+		<div id="footer">
+
+		</div>
+		<!--end footer-->
+		<div id="footer">
+			www.anorlondo.com.lordran &nbsp;|&nbsp; &copy2021
+		</div>
 	
 	</body>
 </html>
-	
-	
