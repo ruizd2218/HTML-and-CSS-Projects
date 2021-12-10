@@ -9,7 +9,7 @@ html {
 body {
     font-size: 14px;
     margin: 0;
-    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: "Candara", Arial, Helvetica, sans-serif;
     line-height: 1.42;
     color: #333;
     background-color: rgb(24, 24, 24);
@@ -186,7 +186,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    border-radius:8px;
+    border-radius:16px;
     margin:0px auto;
     background-color:rgb(54, 54, 54);
 }
@@ -241,8 +241,8 @@ section {
     color: #8d8e8f;
     padding: 12px 12px;
     width: 70%;
-    border: 1px solid #808080;
-    margin: 2% auto;
+    border: 2px solid #4d0000;
+    margin: 10% auto;
     border-radius: 7px;
     background: rgb(227,222,222);
     box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3);
@@ -260,15 +260,15 @@ section {
     border-right: 2px solid #424549;
     border-bottom: 2px solid #424549;
     border-left: 1px solid #09080D;
-    margin: 10px 1em;
-    border-radius: 7px;
-    background: #13161B;
+    margin: 5px 1em;
+    border-radius: 4px;
+    background: #6b1010;
     box-shadow: inset 0px 3px 0px rgba (5,5,5,9.15);
     font-family:"Raleway", sans-serif;
 }
 
 .reservation input[type="text"]:hover {
-    box-shadow: 0 0 18px rgba(100,65,0,.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
 }
 
 .form-spacer {
@@ -302,11 +302,11 @@ section {
     font-weight: 900;
     outline: none;
     text-align: center;
-    font-family: "Raleway", sans-serif;
+    font-family: "Candara", sans-serif;
     margin: 0px 3%;
     padding: 7px 0px;
     width: 25%;
-    font-size: 18px;
+    font-size: 12px;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
     background-color: #797a7b;
