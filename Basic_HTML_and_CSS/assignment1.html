@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Assignment</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <style>
+            .center {
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+                width:50;
+                filter: blur(1px);
+                border: 2px solid red;
+                border-radius: 25px;
+            }
+                
+            p {
+                font-weight: 900;
+                color:blue;
+                text-align:center;
+                font-family:"Candara", Arial, Helvetica, sans-serif;
+            }
+            
+            p:hover {
+                color:yellow;
+                cursor: pointer;
+            }
+
+            table,
+            td,
+            th,
+            tr {
+                border: 3px solid black;
+            }
+
+            .container {
+                position:relative;
+                text-align:center;
+                color:white;
+            }
+
+            .centered{
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                position:absolute;
+                color:blue;
+                font-weight:bold;
+            }
+
+            nav {
+                background-color:black;
+            }
+
+            a {
+                color:yellow;
+            }
+
+            a:hover{
+                color:blue;
+            }
+
+            .container:hover
+            .overlay{
+                opacity: 1;
+            }
+        </style>
+        <section id="home">
+            <div class="container">
+                <div class="image">
+                    <img src="./websiteproject2/icons/happyfaceOpen.png" class="center">
+                        <div class="overlay">Hello</div>
+                </div>
+                <div class="centered">Text over image</div>
+            </div>
+        </section>
+        <section id="table">
+            <table>
+                <tr>
+                    <th>Table Header 1</th>
+                    <td>Table Data 1</td>
+                    <td>Table Data 2</td>
+                    <td>Table Data 3</td>
+                </tr>
+                <tr>
+                    <th>Table Header 2</th>
+                    <td>Table data 4</td>
+                    <td>Table Data 5</td>
+                    <td>Table Data 6</td>
+                </tr>
+                <tr>
+                    <th>Table Header 3</th>
+                    <td>Table data 7</td>
+                    <td>Table Data 8</td>
+                    <td>Table Data 9</td>
+                </tr>
+                <tr>
+                    <th>Table Header 4</th>
+                    <td>Table data 10</td>
+                    <td>Table Data 11</td>
+                    <td>Table Data 12</td>
+                </tr>
+            </table>
+        </section>
+    <img src="websiteproject/images/anor1.png" width="900" height="600">
+    <>
+    
+
+
+    <footer>
+        <section id="footer">
+            <p>This is a footer</p>
+            <nav>
+                <h2><a href="#home">Home</a></h2>
+                <h2><a href="#table">Table</a></h2>
+                <h2><a href="#footer">Footer</a></h2>
+            </nav>
+        </section>
+    </footer>
+    </body>
+</html>
