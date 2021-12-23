@@ -4,6 +4,8 @@
 	<!--Home page-->
 	<head>
 		<meta charset="utf-8">
+		<script src="js/main.js" defer></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<title>LEMONADE!</title>
 		<header>
 			<nav>
@@ -14,6 +16,7 @@
 			</nav>
 			<h2>Lemonade</h2>
 		</header>
+
 	</head>
 	<body>
 		<section id="home">
@@ -25,19 +28,43 @@
 			I can understand if you think plain old lemonade can get boring, but that's why we have other flavors, such as strawberry and raspberry Lemonade, these add to and
 			compliment the taste perfectly.</p>
 		</section>
+		<div class="form-spacer"></div>
 		<section id="images">
-			<figure>
-				<img src=".\images\lemonade1.png" alt="lemonade on table." width="400" height="300">
-				<figcaption>The first Lemonade sold in Paris was actually carbonated</figcaption>
-				<img src=".\images\lemonade2.png" alt="old photo of a lemonade merchant" width="220" height="300">
-				<figcaption>A cartoon drawing of a French Lemonade salesman</figcaption>
-			</figure>
+			<div class="row">
+				<div class="column">
+					<img src="images/lemonade1.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width="600" height="400">
+				</div>
+				<div class="column">
+					<img src="images/lemonade3.png" onclick="openModal();currentSlide(3)" class="hover-shadow" width="600" height="400">
+				</div>
+			</div>
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+			
+				<div class="mySlides">
+					<div class="numbertext">1 / 2</div>
+					<img src="images/lemonade1.png" style="width:100%">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">2 / 2</div>
+					<img src="images/lemonade3.png" style="width:100%">
+				</div>
+			
+				<!-- Next/previous buttons -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+
 		</section>
+		<div class="form-spacer"></div>
 		<section id="video">
 			<h2>Nothing beats fresh squeezed lemonade. That's exactly why I'll leave you here
 			with this video, If you are interested in making your own Lemonade, this video is for you!</h2>
 			<iframe width="640" height="480" src="https://www.youtube.com/embed/5_sHXJC9ocA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
+		<div class="form-spacer"></div>
 		<section id="contact">
 			<form action="" method="get">
 			<h2>CONTACT<h2>
